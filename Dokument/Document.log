@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.18)  8 MAY 2025 07:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.18)  8 MAY 2025 07:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./elsarticle-template-harv.tex
-(elsarticle-template-harv.tex
+**./Document.tex
+(Document.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 
@@ -93,7 +93,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \@enLab=\toks19
 \@sep=\skip50
 \@@sep=\skip51
- (elsarticle-template-harv.spl)
+ (Document.spl)
 (C:\Users\pauli\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip52
@@ -102,7 +102,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count269
 )
 \splwrite=\write3
-\openout3 = `elsarticle-template-harv.spl'.
+\openout3 = `Document.spl'.
 
 \appnamewidth=\dimen147
 )
@@ -185,12 +185,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(elsarticle-template-harv.aux
-
-LaTeX Warning: Label `fig1' multiply defined.
-
-)
-\openout1 = `elsarticle-template-harv.aux'.
+(Document.aux)
+\openout1 = `Document.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
@@ -282,50 +278,130 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 137
 (C:\Users\pauli\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+
+Package natbib Warning: Citation `Noll.1957' on page 1 undefined on input line 
+158.
+
+
+Package natbib Warning: Citation `Noll.1958' on page 1 undefined on input line 
+158.
+
+
+Package natbib Warning: Citation `Coleman.1964' on page 1 undefined on input li
+ne 158.
+
+
+Package natbib Warning: Citation `Coleman.1964' on page 1 undefined on input li
+ne 158.
+
+
+Package natbib Warning: Citation `Haupt.2000' on page 1 undefined on input line
+ 160.
+
+
+Package natbib Warning: Citation `Coleman.1967' on page 1 undefined on input li
+ne 160.
+
+
+Package natbib Warning: Citation `Lubliner.1973' on page 1 undefined on input l
+ine 160.
+
+
+Package natbib Warning: Citation `Maugin.1994' on page 1 undefined on input lin
+e 160.
+
+
+Package natbib Warning: Citation `Lockett.1972' on page 1 undefined on input li
+ne 160.
+
 [1
 
 
 ]
-<example-image-a.pdf, id=20, 321.2pt x 240.9pt>
-File: example-image-a.pdf Graphic file (type pdf)
-<use example-image-a.pdf>
-Package pdftex.def Info: example-image-a.pdf  used on input line 233.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
- [2 <C:/Users/pauli/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image-a
-.pdf>] (elsarticle-template-harv.aux)
+
+Package natbib Warning: Citation `Haupt.2000' on page 2 undefined on input line
+ 162.
+
+
+Package natbib Warning: Citation `Truesdell.1960' on page 2 undefined on input 
+line 162.
+
+
+Package natbib Warning: Citation `Truesdell.1965' on page 2 undefined on input 
+line 162.
+
+
+Package natbib Warning: Citation `Jaumann.1906' on page 2 undefined on input li
+ne 162.
+
+
+Package natbib Warning: Citation `Zaremba.1903' on page 2 undefined on input li
+ne 162.
+
+
+Package natbib Warning: Citation `Oldroyd.1950' on page 2 undefined on input li
+ne 162.
+
+
+LaTeX Warning: Reference `subsec.: Balance Equations' on page 2 undefined on in
+put line 162.
+
+
+Overfull \hbox (1.30998pt too wide) in paragraph at lines 164--165
+[]\T1/cmr/m/n/12 Symmetrical second-order ten-sors in three-dimensional space c
+an be trans-
+ []
+
+[2]
+Overfull \hbox (15.55522pt too wide) detected at line 195
+[]
+ []
+
+[3]
+
+Package natbib Warning: There were undefined citations.
+
+[4] (Document.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4512 strings out of 474486
- 67956 string characters out of 5743755
- 1931542 words of memory out of 5000000
- 26738 multiletter control sequences out of 15000+600000
- 568942 words of font info for 63 fonts, out of 8000000 for 9000
+ 4517 strings out of 474486
+ 67374 string characters out of 5743755
+ 1939542 words of memory out of 5000000
+ 26734 multiletter control sequences out of 15000+600000
+ 571711 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,79p,222b,285s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,1402b,285s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\pauli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
 0800.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm1000.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecti1200.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1200.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\pauli\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/pauli/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/pauli/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/pa
-uli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
-sers/pauli/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb>
-Output written on elsarticle-template-harv.pdf (4 pages, 91270 bytes).
+0\ecti1200.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1200.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecti1000.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\pauli\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/pauli/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/pauli/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/pauli/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users
+/pauli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+<C:/Users/pauli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><C:/Users/pauli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmib10.pfb><C:/Users/pauli/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Users/pauli/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/pauli/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/pauli/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pauli/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Document.pdf (6 pages, 167905 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
+ 256 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,264 @@
+%% 
+%% Copyright 2007-2025 Elsevier Ltd
+%% 
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.3 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for Elsevier's document class `elsarticle'
+%% with harvard style bibliographic references
+
+\documentclass[preprint,12pt,authoryear]{elsarticle}
+
+%% Use the option review to obtain double line spacing
+%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times,authoryear]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn,authoryear]{elsarticle}
+
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls. If you prefer to use the old commands
+%% please give \usepackage{epsfig}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsmath package provides various useful equation environments.
+\usepackage{amsmath}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers.
+%% \usepackage{lineno}
+
+\journal{Nuclear Physics B}
+
+\begin{document}
+
+\begin{frontmatter}
+
+%% Title, authors and addresses
+
+%% use the tnoteref command within \title for footnotes;
+%% use the tnotetext command for theassociated footnote;
+%% use the fnref command within \author or \affiliation for footnotes;
+%% use the fntext command for theassociated footnote;
+%% use the corref command within \author for corresponding author footnotes;
+%% use the cortext command for theassociated footnote;
+%% use the ead command for the email address,
+%% and the form \ead[url] for the home page:
+%% \title{Title\tnoteref{label1}}
+%% \tnotetext[label1]{}
+%% \author{Name\corref{cor1}\fnref{label2}}
+%% \ead{email address}
+%% \ead[url]{home page}
+%% \fntext[label2]{}
+%% \cortext[cor1]{}
+%% \affiliation{organization={},
+%%            addressline={}, 
+%%            city={},
+%%            postcode={}, 
+%%            state={},
+%%            country={}}
+%% \fntext[label3]{}
+
+\title{} %% Article title
+
+%% use optional labels to link authors explicitly to addresses:
+%% \author[label1,label2]{}
+%% \affiliation[label1]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+%%
+%% \affiliation[label2]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+
+\author{} %% Author name
+
+%% Author affiliation
+\affiliation{organization={},%Department and Organization
+            addressline={}, 
+            city={},
+            postcode={}, 
+            state={},
+            country={}}
+
+%% Abstract
+\begin{abstract}
+%% Text of abstract
+Abstract text.
+\end{abstract}
+
+%%Graphical abstract
+\begin{graphicalabstract}
+%\includegraphics{grabs}
+\end{graphicalabstract}
+
+%%Research highlights
+\begin{highlights}
+\item Research highlight 1
+\item Research highlight 2
+\end{highlights}
+
+%% Keywords
+\begin{keyword}
+%% keywords here, in the form: keyword \sep keyword
+
+%% PACS codes here, in the form: \PACS code \sep code
+
+%% MSC codes here, in the form: \MSC code \sep code
+%% or \MSC[2008] code \sep code (2000 is the default)
+
+\end{keyword}
+
+\end{frontmatter}
+
+%% Add \usepackage{lineno} before \begin{document} and uncomment 
+%% following line to enable line numbers
+%% \linenumbers
+
+%% main text
+%%
+
+%% Use \section commands to start a section
+\section{Introduction}
+\label{sec1}
+
+The experimental investigation and numerical or analytical modeling of laminated glass has been a highly discussed topic in glass research over the last decade and has gained even more relevance with the new eurocode glass. As the modeling of laminated glass structures in the fully broken state (state IIIb) is a very complicated task, there are several different approaches to it. Besides the description by as a homogeneous material with a respective equivalent residual stiffness [Bennison,Galluppi,Botz] there exist also approaches with an explicit description of the decisive load-bearing mechanisms. According to [EC10] these mechanisms are the interlayer, the bond between interlayer and glass, and the glass fragments and their interaction.
+
+\section{Methodology}
+\label{sec2}
+
+\subsection{Theoretical Aspects}
+\label{subsec2.1}
+
+Mechanical modeling of solid materials is based on the approach of simple materials. A mechanical simple material is defined as a material whose stress at a time is determined only by the strain history \cite{Noll.1957,Noll.1958}. \citet{Coleman.1964} expanded the "mechanical" theory of simple materials to the more general "thermomechanical" theory of simple materials. Within this theory, a thermomechanical, simple material requires that the entropy, the internal energy, the stress, and the heat flux be determined by the history of the deformation gradient, the history of the temperature, and the present value of the temperature gradient \cite{Coleman.1964}. The more general theory goes along with the Clausius Duhem inequality and is used later in this thesis. 
+
+\citet{Haupt.2000} introduced three levels for modeling material behavior: constitutive equations, material symmetry properties, and conditions of kinematic constraints. Constitutive equations formulate the individual response of any material to a given input process. Considering elastic behavior, they can be described in terms of simple material functions; considering inelastic behavior, they must be formulated in terms of functional relations. These functional relations can be implicitly formulated using differential equations and internal variables \cite{Coleman.1967,Lubliner.1973,Maugin.1994} or explicitly, using integrals over the process history \cite{Lockett.1972}. Material symmetry considers the material's directionality and holds for stress-strain relations that stay invariant for changes in the reference configuration. In general, simple materials can be divided into fluids and solids each following different properties of material symmetry. Kinematic constraints are restrictions of a body's movement, defined a priori. This concept is independent of any stress-strain relation and material symmetry. An example of such a restraint is material incompressibility, which does not allow changes in volume.
+
+For constructing material models on the three levels introduced by \citet{Haupt.2000}, three general principles arise, according to \citet{Truesdell.1960,Truesdell.1965}: the principle of determinism, the principle of local action, and the principle of frame-indifference (objectivity). Thereby, the principle of determinism, stating that the current stress state in one material point within a body is uniquely defined by the history of the motion of the body, is restricted by the principle of local action, stating that the stress state in one material point is only influenced by the history of motions of its neighboring points. The principle of material frame indifference or material objectivity completes the principles and states that every representation of material properties must be invariant concerning any frame change. In other words, constitutive equations must be independent of the frame of reference. Furthermore, objectivity must be the requirement for derivatives. Well-known examples satisfying the requirement of objectivity are the derivatives proposed by \cite{Jaumann.1906}, Zaremba \cite{Zaremba.1903}, and Oldroyd \cite{Oldroyd.1950}. Regardless of these considerations, every material must satisfy the compatibility with the balance relations of continuum mechanics (compare Sec. \ref{subsec.: Balance Equations}) at any time.
+
+Symmetrical second-order tensors in three-dimensional space can be transformed from a coordinate matrix by principal axis transformation $\mathbf{Q}=Q^{ij}\mathbf{e}_{i}\otimes\mathbf{e}_{j}$ to the diagonal matrix $\mathbf{Q}=\sum_{i=1}^{3}\lambda_{i}\mathbf{n}^{i}\otimes\mathbf{n}^{i}$. This transformation corresponds to a rotation of the basis vectors $e_{i}$ into the main directions $n_{i}$. The coordinates $Q^{ij}$ become the principal values $\lambda_{i}$, with the corresponding values obtained by solving the eigenvalue problem.
+\begin{equation}
+	\label{eq.: Eigenvalueproblem}
+	(\mathbf{Q}-\lambda\mathbf{1})\cdot \mathbf{n}=\mathbf{0}
+\end{equation}
+The solution to this eigenvalue problem leads to the characteristic equation of the second-order tensor:
+\begin{equation}
+	\label{eq.: characteristic equation}
+	\lambda^{3}-\mathrm{I}_{\mathbf{Q}}\lambda^{2}+\mathrm{II}_{\mathbf{Q}}\lambda-\mathrm{III}_{\mathbf{Q}}=0
+\end{equation}
+Since the eigenvalues $\lambda_{i}$, which represent the solutions of this equation, are base-independent scalars, the coefficients of the characteristic equation, which are referred to as invariants of the second-level tensor, are also base-independent.
+\begin{align}
+	\label{eq.: Ivariants of arbitrary second order tensor}
+	\mathrm{I}_{\mathbf{Q}}&=Sp(\mathbf{Q})\\
+	\mathrm{II}_{\mathbf{Q}}&=\frac{1}{2}\Bigl((Sp(\mathbf{Q}))^{2}-Sp(\mathbf{Q}^{2})\Bigr)\\
+	\mathrm{III}_{\mathbf{Q}}&=det(\mathbf{Q})
+\end{align}
+If $\mathbf{Q}$ is in principal axis representation and the eigenvalues ($\lambda_{1},\lambda_{2},\lambda_{3}$) are known, the formulation of the invariants is simplified as follows:
+\begin{align}
+	\label{eq.: Ivariants of known eigenvalues}
+	\mathrm{I}_{\mathbf{Q}}&=\lambda_{1}+\lambda_{2}+\lambda_{3}\\
+	\mathrm{II}_{\mathbf{Q}}&=\lambda_{1}\lambda_{2}+\lambda_{2}\lambda_{3}+\lambda_{3}\lambda_{1}\\
+	\mathrm{III}_{\mathbf{Q}}&=\lambda_{1}\lambda_{2}\lambda_{3}
+\end{align}
+Since these relationships can be transferred to symmetric second-order tensors, they can also be applied to the left or right Cauchy Green tensor. The invariants of the right Cauchy Green tensor $\mathbf{C}$ thus result in $\mathrm{I}_{\mathbf{C}}, \mathrm{II}_{\mathbf{C}}, \mathrm{III}_{\mathbf{C}}$.
+
+For many materials, it is reasonable to split the deformation into shape-changing and volume-changing parts. Metals, for example, are considered resistant to hydrostatic pressure but sensitive to deviatoric stresses. Furthermore, treating incompressible material behavior, which many polymers show, requires a split into deviatoric and volumetric parts. Considering the deformation gradient $\mathbf{F}$ and the Cauchy stress tensor $\boldsymbol{\sigma}$ and using $J=det(\mathbf{F})$ leads to the following relations of conjugated parts of stress and deformation:
+\begin{align}
+	\label{eq.: split of deformation gradient}
+	\mathbf{F}&=\mathbf{F}_{iso}\mathbf{F}_{vol}&\hspace{2cm}&\mathbf{F}_{iso}=J^{-\frac{1}{3}}\mathbf{F}&\hspace{2cm}&\mathbf{F}_{vol}=J^{\frac{1}{3}}\mathbf{1}\\
+	\boldsymbol{\sigma}&=\boldsymbol{\sigma}_{dev}+\boldsymbol{\sigma}_{vol}&\hspace{2cm}&\boldsymbol{\sigma}_{dev}=\boldsymbol{\sigma}-\frac{1}{3}Sp(\boldsymbol{\sigma})\mathbf{1}&\hspace{2cm}&\boldsymbol{\sigma}_{vol}=\frac{1}{3}Sp(\boldsymbol{\sigma})\mathbf{1}
+\end{align}
+
+\subsection{Materials}
+\label{subsec2.2}
+
+\subsection{Experimental Set-Up}
+\label{subsec2.3}
+
+\section{Results}
+\label{sec3}
+
+\subsection{PVB}
+\label{subsec3.1}
+
+\subsection{SG}
+\label{subsec3.2}
+
+\subsection{EVA}
+\label{subsec3.3}
+
+\section{Discussion}
+\label{sec4}
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+\appendix
+\section{Measured Data}
+\label{app1}
+
+Appendix text.
+
+%% For citations use: 
+%%       \citet{<label>} ==> Lamport (1994)
+%%       \citep{<label>} ==> (Lamport, 1994)
+%%
+Example citation, See \citet{lamport94}.
+
+%% If you have bib database file and want bibtex to generate the
+%% bibitems, please use
+%%
+%%  \bibliographystyle{elsarticle-harv} 
+%%  \bibliography{<your bibdatabase>}
+
+%% else use the following coding to input the bibitems directly in the
+%% TeX file.
+
+%% Refer following link for more details about bibliography and citations.
+%% https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management
+
+\begin{thebibliography}{00}
+
+%% For authoryear reference style
+%% \bibitem[Author(year)]{label}
+%% Text of bibliographic item
+
+\bibitem[Lamport(1994)]{lamport94}
+  Leslie Lamport,
+  \textit{\LaTeX: a document preparation system},
+  Addison Wesley, Massachusetts,
+  2nd edition,
+  1994.
+
+\end{thebibliography}
+\end{document}
+
+\endinput
+%%
+%% End of file `elsarticle-template-harv.tex'.
+
+
